@@ -1,0 +1,11 @@
+uuid: 2d6a7f94-b102-48e7-8e7b-4cccdbcde781
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.portafolio
+id: taxonomy_term.portafolio
+target_entity_type_id: taxonomy_term
+target_bundle: portafolio
+default_langcode: site_default
+language_alterable: false

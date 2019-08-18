@@ -1,0 +1,29 @@
+uuid: a4004346-e947-413f-b35d-b2d7c9fa7df4
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:bloque_menu:7bfdd873-9fda-4047-877e-27eac529b438'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: hamburguer-menu__container
+id: hamburguermenu
+theme: basic
+region: header
+weight: -10
+provider: null
+plugin: 'block_content:7bfdd873-9fda-4047-877e-27eac529b438'
+settings:
+  id: 'block_content:7bfdd873-9fda-4047-877e-27eac529b438'
+  label: 'Hamburguer menu'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

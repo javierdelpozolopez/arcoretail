@@ -1,0 +1,22 @@
+uuid: 4dd8202a-70d5-479b-9fc2-18f5209804ec
+langcode: es
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - basic
+_core:
+  default_config_hash: XtyNN_naHxT0oeqiSmOPc3pB9urhK3qOFNSvfhhGjtY
+id: basic_search
+theme: basic
+region: footer
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

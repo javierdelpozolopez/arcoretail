@@ -1,0 +1,34 @@
+uuid: 8054de34-b883-4d62-9b8d-181997f9737f
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - block_id
+    - system
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: main-nav
+  block_id:
+    id: js-main-nav
+_core:
+  default_config_hash: j-hCBhEg86mPGcurzgqMZNd_-9XVnfKOSpHZ6IjDR0k
+id: basic_main_menu
+theme: basic
+region: help
+weight: -9
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

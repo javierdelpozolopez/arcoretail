@@ -1,0 +1,49 @@
+uuid: d90a0589-4ec5-4dca-9619-def719eb2447
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.servicios.field_archivo
+    - field.field.node.servicios.field_descripcion
+    - field.field.node.servicios.field_servicio_imagen
+    - node.type.servicios
+  module:
+    - file
+    - image
+    - user
+id: node.servicios.default
+targetEntityType: node
+bundle: servicios
+mode: default
+content:
+  field_archivo:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_descripcion:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_servicio_imagen:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

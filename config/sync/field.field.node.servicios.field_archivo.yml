@@ -1,0 +1,27 @@
+uuid: 27241766-ecc3-43f8-b8d0-f09aeeb71113
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo
+    - node.type.servicios
+  module:
+    - file
+id: node.servicios.field_archivo
+field_name: field_archivo
+entity_type: node
+bundle: servicios
+label: archivo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,137 @@
+uuid: 5054441b-847c-4dff-add6-186ee2ea3c39
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.proyecto.body
+    - field.field.node.proyecto.field_etiquetas
+    - field.field.node.proyecto.field_proyecto_imagenes
+    - node.type.proyecto
+  module:
+    - layout_builder
+    - layout_discovery
+    - svg_image
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          28cc9e3c-f763-4f9d-aac1-a8a4a8f8cc02:
+            uuid: 28cc9e3c-f763-4f9d-aac1-a8a4a8f8cc02
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:proyecto:links'
+            additional: {  }
+            weight: 0
+          7abae3c9-2d7a-4a08-8504-ddad6039a080:
+            uuid: 7abae3c9-2d7a-4a08-8504-ddad6039a080
+            region: content
+            configuration:
+              id: 'field_block:node:proyecto:field_proyecto_imagenes'
+              label: 'proyecto imágenes'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: main_image_proyecto
+                  image_link: ''
+                  svg_render_as_image: 0
+                  svg_attributes:
+                    width: ''
+                    height: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          column_widths: 75-25
+        components:
+          eaa83431-5e43-4ebc-91bb-c78f06ff8fed:
+            uuid: eaa83431-5e43-4ebc-91bb-c78f06ff8fed
+            region: second
+            configuration:
+              id: 'field_block:node:proyecto:field_etiquetas'
+              label: Etiquetas
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          d4550b13-f62a-45c5-974b-7d567d94d44f:
+            uuid: d4550b13-f62a-45c5-974b-7d567d94d44f
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:proyecto:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: node.proyecto.default
+targetEntityType: node
+bundle: proyecto
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_etiquetas:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_proyecto_imagenes:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+      svg_attributes:
+        width: ''
+        height: ''
+      svg_render_as_image: true
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

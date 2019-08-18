@@ -1,0 +1,35 @@
+uuid: 404f4f19-063c-4a32-862f-01d5d06ecedd
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:42a22909-1280-4167-a81d-b0ad47141648'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'container container-bg-color-branding'
+id: secondsection
+theme: basic
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:42a22909-1280-4167-a81d-b0ad47141648'
+settings:
+  id: 'block_content:42a22909-1280-4167-a81d-b0ad47141648'
+  label: second-section
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,27 @@
+uuid: bea61a0a-0fa6-4b88-8328-b3945559468f
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - basic
+_core:
+  default_config_hash: Pm1P9L_FNv6_U6EAD5RECo2KcwAHgbU2DOVb1r6PWX8
+id: basic_content
+theme: basic
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

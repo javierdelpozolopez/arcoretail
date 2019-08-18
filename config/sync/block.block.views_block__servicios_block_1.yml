@@ -1,0 +1,31 @@
+uuid: a8f9619d-7550-42e8-a3a1-a0086cc9ec5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.servicios
+  module:
+    - block_class
+    - block_id
+    - views
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: container
+  block_id:
+    id: servicios
+id: views_block__servicios_block_1
+theme: basic
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:servicios-block_1'
+settings:
+  id: 'views_block:servicios-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 4db55583-cea1-4fd4-b51b-8bc5083c1e3a
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: proyectos
+label: Proyectos
+type: 'canonical_entities:node'
+pattern: '/portafolio/[node:title]'
+selection_criteria:
+  b55b1ce7-a7b3-47b0-bb30-a13fb2dc5959:
+    id: node_type
+    bundles:
+      proyecto: proyecto
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b55b1ce7-a7b3-47b0-bb30-a13fb2dc5959
+selection_logic: and
+weight: -5
+relationships: {  }

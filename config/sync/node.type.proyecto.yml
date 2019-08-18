@@ -1,0 +1,17 @@
+uuid: a002079f-717f-417f-8b0f-714905b80833
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Proyecto
+type: proyecto
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

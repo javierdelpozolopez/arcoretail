@@ -1,0 +1,34 @@
+uuid: 33dae97f-e527-43c8-aaa2-d3738f8a3e92
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.portafolio
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: container
+id: views_block__portafolio_block_1
+theme: basic
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:portafolio-block_1'
+settings:
+  id: 'views_block:portafolio-block_1'
+  label: Portafolio
+  provider: views
+  label_display: visible
+  views_label: Portafolio
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

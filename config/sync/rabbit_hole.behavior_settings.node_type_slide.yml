@@ -1,0 +1,11 @@
+uuid: cc6908f3-733c-4b65-8154-666073377ff7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.slide
+id: node_type_slide
+action: page_redirect
+allow_override: 1
+redirect: /inicio
+redirect_code: 301

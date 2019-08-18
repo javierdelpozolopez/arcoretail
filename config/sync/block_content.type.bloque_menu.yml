@@ -1,0 +1,8 @@
+uuid: 9b4e1e5e-20f6-4987-bac9-e15544cccbac
+langcode: es
+status: true
+dependencies: {  }
+id: bloque_menu
+label: 'bloque menu'
+revision: 0
+description: ''

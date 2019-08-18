@@ -1,0 +1,23 @@
+uuid: 09fdf787-62cd-4c61-923f-eba12b8b2235
+langcode: es
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: etiquetas
+label: etiquetas
+type: 'canonical_entities:taxonomy_term'
+pattern: 'etiquetas/[term:name]'
+selection_criteria:
+  fa87944d-2fd5-4a74-8369-ed56af6dac4a:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      portafolio: portafolio
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: fa87944d-2fd5-4a74-8369-ed56af6dac4a
+selection_logic: and
+weight: -5
+relationships: {  }

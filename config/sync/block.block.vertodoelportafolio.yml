@@ -1,0 +1,35 @@
+uuid: 9d7b8a93-7810-4938-a8ba-12086dacaa4c
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:020a5fd8-8318-4cef-bbb0-d1fa90548886'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'content text-align-center'
+id: vertodoelportafolio
+theme: basic
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:020a5fd8-8318-4cef-bbb0-d1fa90548886'
+settings:
+  id: 'block_content:020a5fd8-8318-4cef-bbb0-d1fa90548886'
+  label: 'Ver todo el portafolio'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

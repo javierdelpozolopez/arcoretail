@@ -1,0 +1,29 @@
+uuid: bf6bd51d-3476-41e0-a632-14c52dbaab22
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ec5fa846-7412-414f-8538-98c7a26d2879'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'container footer_container'
+id: footer
+theme: basic
+region: footer
+weight: -9
+provider: null
+plugin: 'block_content:ec5fa846-7412-414f-8538-98c7a26d2879'
+settings:
+  id: 'block_content:ec5fa846-7412-414f-8538-98c7a26d2879'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

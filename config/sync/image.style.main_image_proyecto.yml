@@ -1,0 +1,15 @@
+uuid: da778b99-0de4-4b4b-ac9a-70ff12c73c0f
+langcode: es
+status: true
+dependencies: {  }
+name: main_image_proyecto
+label: 'main image proyecto'
+effects:
+  79762a7c-31e7-4e07-b3ed-5be962b4d8bb:
+    uuid: 79762a7c-31e7-4e07-b3ed-5be962b4d8bb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1120
+      height: 630
+      anchor: center-center

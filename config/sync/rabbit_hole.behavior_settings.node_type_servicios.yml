@@ -1,0 +1,11 @@
+uuid: c3738c15-c8d7-4441-900e-c3f4699e8e5a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.servicios
+id: node_type_servicios
+action: page_redirect
+allow_override: 1
+redirect: /inicio
+redirect_code: 301

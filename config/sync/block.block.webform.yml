@@ -1,0 +1,32 @@
+uuid: 367b1228-45cb-45a0-bb53-6496905a1969
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - block_class
+    - block_id
+    - webform
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'container contact__container'
+  block_id:
+    id: contacto
+id: webform
+theme: basic
+region: content
+weight: -1
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Contacto
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility: {  }

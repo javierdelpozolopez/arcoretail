@@ -1,0 +1,35 @@
+uuid: a0145dda-53bd-460f-a940-92c363c22151
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:11682a8e-1742-4f0e-9dc9-430d00d3dac4'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'container container_bg_grey'
+id: clientes
+theme: basic
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:11682a8e-1742-4f0e-9dc9-430d00d3dac4'
+settings:
+  id: 'block_content:11682a8e-1742-4f0e-9dc9-430d00d3dac4'
+  label: 'Algunos clientes felices'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

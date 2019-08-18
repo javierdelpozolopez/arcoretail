@@ -1,0 +1,11 @@
+uuid: ea570c86-c7b7-49bf-99f6-3de492ca71fe
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.proyecto
+id: node.proyecto
+target_entity_type_id: node
+target_bundle: proyecto
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,31 @@
+uuid: 342afdfd-753e-4e01-8586-f62d960ad1e2
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - basic
+third_party_settings:
+  block_class:
+    classes: 'content headline_page'
+_core:
+  default_config_hash: z7T4p-kZmf4qKI3MnuSdYhnb9S8zp6l9irANDc1kuxc
+id: basic_page_title
+theme: basic
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

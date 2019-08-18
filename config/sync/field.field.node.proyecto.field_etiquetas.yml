@@ -1,0 +1,29 @@
+uuid: 5fb97a4f-6c49-42ac-ab1d-c9af35a59a8e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etiquetas
+    - node.type.proyecto
+    - taxonomy.vocabulary.portafolio
+id: node.proyecto.field_etiquetas
+field_name: field_etiquetas
+entity_type: node
+bundle: proyecto
+label: Etiquetas
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      portafolio: portafolio
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,17 @@
+uuid: 3002b8ea-ba15-4378-81f8-5fbb2fd5f2ea
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Servicios
+type: servicios
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

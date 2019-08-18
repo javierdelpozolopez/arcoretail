@@ -1,0 +1,27 @@
+uuid: 8e609a59-add8-413f-aa02-b02935ff6fae
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - basic
+_core:
+  default_config_hash: McZ7WMY0v61a0m6fhImd4kxLBEYi0MOC6X9spsQA0Y0
+id: basic_footer
+theme: basic
+region: footer
+weight: -8
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

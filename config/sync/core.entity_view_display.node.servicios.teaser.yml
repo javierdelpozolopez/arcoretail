@@ -1,0 +1,27 @@
+uuid: dfdf992e-b0f1-402b-9d61-494cbc5a6d13
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.servicios.field_archivo
+    - field.field.node.servicios.field_descripcion
+    - field.field.node.servicios.field_servicio_imagen
+    - node.type.servicios
+  module:
+    - user
+id: node.servicios.teaser
+targetEntityType: node
+bundle: servicios
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_archivo: true
+  field_descripcion: true
+  field_servicio_imagen: true
+  langcode: true

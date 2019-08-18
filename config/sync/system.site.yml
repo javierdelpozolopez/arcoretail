@@ -1,0 +1,14 @@
+uuid: b3ca6da3-cbdc-4643-b6e5-0dbb047f2439
+name: 'Arco Retail'
+mail: jdelpozo@p-per.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/29
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

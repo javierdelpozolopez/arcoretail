@@ -1,0 +1,17 @@
+uuid: 594d8e28-b039-48dd-9ab8-0f854919f1df
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: slide
+type: slide
+description: 'Slide para el slider principal'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false
